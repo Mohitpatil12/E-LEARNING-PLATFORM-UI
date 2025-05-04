@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub | Online Learning Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Learn<span>Hub</span></a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#courses">Courses</a>
+                <a href="#features">Features</a>
+                <a href="#dashboard">Dashboard</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="auth-buttons">
+                <a href="#" class="btn btn-outline">Login</a>
+                <a href="#" class="btn btn-primary">Sign Up</a>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Learn Without Limits</h1>
+                <p>Start, switch, or advance your career with 5,000+ courses, Professional Certificates, and degrees from world-class universities and companies.</p>
+                <div class="hero-buttons">
+                    <a href="#courses" class="btn btn-primary">Browse Courses</a>
+                    <a href="#" class="btn btn-outline">Try for Free</a>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>10K+</h3>
+                        <p>Students Enrolled</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>500+</h3>
+                        <p>Expert Instructors</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100+</h3>
+                        <p>Countries</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Students Learning">
+                <div class="floating-card">
+                    <div class="card-header">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Get Certified</h4>
+                    </div>
+                    <p>Earn certificates upon course completion that you can share with potential employers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Popular Categories</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>120 Courses</p>
+                </div>
+                <div class="category-card">
+                    <div class="icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>85 Courses</p>
+                </div>
+                <div class="category-card">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Data Science</h3>
+                    <p>75 Courses</p>
+                </div>
+                <div class="category-card">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p>60 Courses</p>
+                </div>
+                <div class="category-card">
+                    <div class="icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Marketing</h3>
+                    <p>45 Courses</p>
+                </div>
+                <div class="category-card">
+                    <div class="icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Business</h3>
+                    <p>90 Courses</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Courses</h2>
+                <a href="#" class="view-all">View All Courses <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="course-grid">
+                <!-- Course Card 1 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Web Development">
+                        <div class="badge">Bestseller</div>
+                        <div class="hover-actions">
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                            <button class="preview"><i class="fas fa-eye"></i> Preview</button>
+                        </div>
+                    </div>
+                    <div class="course-info">
+                        <div class="instructor">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Instructor">
+                            <span>John Smith</span>
+                        </div>
+                        <h3 class="course-title">The Complete Web Development Bootcamp 2023</h3>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.5</span>
+                            </div>
+                            <span class="students">(12,345 students)</span>
+                        </div>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 56 hours</span>
+                            <span><i class="far fa-play-circle"></i> 420 lectures</span>
+                            <span><i class="fas fa-signal"></i> Beginner</span>
+                        </div>
+                        <div class="course-footer">
+                            <div class="price">
+                                <span class="current">$129.99</span>
+                                <span class="original">$199.99</span>
+                            </div>
+                            <button class="btn btn-primary">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 2 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="Mobile Development">
+                        <div class="badge">New</div>
+                        <div class="hover-actions">
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                            <button class="preview"><i class="fas fa-eye"></i> Preview</button>
+                        </div>
+                    </div>
+                    <div class="course-info">
+                        <div class="instructor">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Instructor">
+                            <span>Sarah Johnson</span>
+                        </div>
+                        <h3 class="course-title">Flutter & Dart - The Complete Guide [2023 Edition]</h3>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>4.0</span>
+                            </div>
+                            <span class="students">(8,765 students)</span>
+                        </div>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 42 hours</span>
+                            <span><i class="far fa-play-circle"></i> 380 lectures</span>
+                            <span><i class="fas fa-signal"></i> Intermediate</span>
+                        </div>
+                        <div class="course-footer">
+                            <div class="price">
+                                <span class="current">$99.99</span>
+                                <span class="original">$149.99</span>
+                            </div>
+                            <button class="btn btn-primary">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 3 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80" alt="Data Science">
+                        <div class="badge">Hot</div>
+                        <div class="hover-actions">
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                            <button class="preview"><i class="fas fa-eye"></i> Preview</button>
+                        </div>
+                    </div>
+                    <div class="course-info">
+                        <div class="instructor">
+                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Instructor">
+                            <span>Michael Chen</span>
+                        </div>
+                        <h3 class="course-title">Python for Data Science and Machine Learning Bootcamp</h3>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>4.8</span>
+                            </div>
+                            <span class="students">(15,432 students)</span>
+                        </div>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 65 hours</span>
+                            <span><i class="far fa-play-circle"></i> 450 lectures</span>
+                            <span><i class="fas fa-signal"></i> All Levels</span>
+                        </div>
+                        <div class="course-footer">
+                            <div class="price">
+                                <span class="current">$149.99</span>
+                                <span class="original">$229.99</span>
+                            </div>
+                            <button class="btn btn-primary">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose LearnHub?</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Learn Anything</h3>
+                    <p>Choose from over 5,000 courses in tech, business, arts and more. New courses added every month.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Expert Instructors</h3>
+                    <p>Learn from industry experts who are passionate about teaching and helping you succeed.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Earn Certificates</h3>
+                    <p>Get recognized for your work with professional certificates you can share with employers.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-clock"></i>
+                    </div>
+                    <h3>Learn at Your Pace</h3>
+                    <p>Enjoy lifetime access to courses on LearnHub's website and app so you can learn on your schedule.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section class="dashboard" id="dashboard">
+        <div class="container">
+            <h2 class="section-title">Your Learning Dashboard</h2>
+            <div class="dashboard-container">
+                <div class="sidebar">
+                    <div class="user-profile">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="User Profile">
+                        <h3>Rahul Sharma</h3>
+                        <p>Premium Member</p>
+                    </div>
+                    <nav class="dashboard-nav">
+                        <a href="#" class="active"><i class="fas fa-home"></i> Dashboard</a>
+                        <a href="#"><i class="fas fa-book-open"></i> My Courses</a>
+                        <a href="#"><i class="fas fa-chart-line"></i> Progress</a>
+                        <a href="#"><i class="fas fa-certificate"></i> Certificates</a>
+                        <a href="#"><i class="fas fa-cog"></i> Settings</a>
+                        <a href="#"><i class="fas fa-question-circle"></i> Help</a>
+                    </nav>
+                </div>
+                <div class="main-content">
+                    <div class="progress-section">
+                        <h3>Your Learning Progress</h3>
+                        <div class="progress-cards">
+                            <div class="progress-card">
+                                <div class="progress-circle" data-progress="75">
+                                    <svg>
+                                        <circle class="progress-bg" cx="50" cy="50" r="40"></circle>
+                                        <circle class="progress-fill" cx="50" cy="50" r="40"></circle>
+                                    </svg>
+                                    <div class="progress-text">75%</div>
+                                </div>
+                                <h4>Web Development</h4>
+                                <p>12/16 lessons completed</p>
+                            </div>
+                            <div class="progress-card">
+                                <div class="progress-circle" data-progress="45">
+                                    <svg>
+                                        <circle class="progress-bg" cx="50" cy="50" r="40"></circle>
+                                        <circle class="progress-fill" cx="50" cy="50" r="40"></circle>
+                                    </svg>
+                                    <div class="progress-text">45%</div>
+                                </div>
+                                <h4>Data Science</h4>
+                                <p>9/20 lessons completed</p>
+                            </div>
+                            <div class="progress-card">
+                                <div class="progress-circle" data-progress="30">
+                                    <svg>
+                                        <circle class="progress-bg" cx="50" cy="50" r="40"></circle>
+                                        <circle class="progress-fill" cx="50" cy="50" r="40"></circle>
+                                    </svg>
+                                    <div class="progress-text">30%</div>
+                                </div>
+                                <h4>Mobile Development</h4>
+                                <p>6/20 lessons completed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="current-courses">
+                        <h3>Your Current Courses</h3>
+                        <div class="course-list">
+                            <div class="enrolled-course">
+                                <div class="course-thumbnail">
+                                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Course">
+                                </div>
+                                <div class="course-details">
+                                    <h4>The Complete Web Development Bootcamp 2023</h4>
+                                    <div class="course-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 75%"></div>
+                                        </div>
+                                        <span>75% Complete</span>
+                                    </div>
+                                    <div class="course-actions">
+                                        <button class="btn btn-primary">Continue</button>
+                                        <button class="btn btn-outline">View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="enrolled-course">
+                                <div class="course-thumbnail">
+                                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80" alt="Course">
+                                </div>
+                                <div class="course-details">
+                                    <h4>Python for Data Science and Machine Learning</h4>
+                                    <div class="course-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 45%"></div>
+                                        </div>
+                                        <span>45% Complete</span>
+                                    </div>
+                                    <div class="course-actions">
+                                        <button class="btn btn-primary">Continue</button>
+                                        <button class="btn btn-outline">View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video-section">
+                        <h3>Continue Learning: Introduction to React</h3>
+                        <div class="video-container">
+                            <div class="video-player">
+                                <iframe src="https://www.youtube.com/embed/dGcsHMXbSOA" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="video-details">
+                                <h4>React Components and Props</h4>
+                                <p>In this lesson, you'll learn about React components and how to use props to pass data between them.</p>
+                                <div class="video-actions">
+                                    <button class="btn btn-primary"><i class="fas fa-check-circle"></i> Mark Complete</button>
+                                    <button class="btn btn-outline"><i class="fas fa-download"></i> Download Resources</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Section -->
+    <section class="certificate">
+        <div class="container">
+            <div class="certificate-content">
+                <div class="certificate-info">
+                    <h2>Earn a Certificate</h2>
+                    <p>Get the recognition you deserve for your hard work. When you complete a course, you'll receive a certificate that you can share with your professional network.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Showcase your skills to employers</li>
+                        <li><i class="fas fa-check-circle"></i> Add to LinkedIn profile</li>
+                        <li><i class="fas fa-check-circle"></i> Download or print your certificate</li>
+                    </ul>
+                    <a href="#courses" class="btn btn-primary">Start Learning Now</a>
+                </div>
+                <div class="certificate-preview">
+                    <div class="certificate-card">
+                        <div class="certificate-header">
+                            <h3>Certificate of Completion</h3>
+                            <div class="logo">Learn<span>Hub</span></div>
+                        </div>
+                        <div class="certificate-body">
+                            <p>This is to certify that</p>
+                            <h4>Rahul Sharma</h4>
+                            <p>has successfully completed the course</p>
+                            <h5>The Complete Web Development Bootcamp 2023</h5>
+                            <div class="signatures">
+                                <div class="instructor-signature">
+                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Instructor">
+                                    <p>John Smith<br>Instructor</p>
+                                </div>
+                                <div class="date">
+                                    <p>Date of Completion</p>
+                                    <p>June 15, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certificate-footer">
+                            <p>Certificate ID: LH-2023-123456</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Students Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"LearnHub completely transformed my career. The web development course gave me the skills I needed to land my dream job as a front-end developer."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="Student">
+                        <div class="author-info">
+                            <h4>Priya Patel</h4>
+                            <p>Front-end Developer at TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The quality of instruction on LearnHub is outstanding. I was able to learn at my own pace while working full-time."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Student">
+                        <div class="author-info">
+                            <h4>Rohan Verma</h4>
+                            <p>Data Scientist at Analytics Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"I've taken several courses on LearnHub and each one has been worth every penny. The certificates helped me stand out in job applications."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Student">
+                        <div class="author-info">
+                            <h4>Ananya Gupta</h4>
+                            <p>UX Designer at DesignStudio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Start Learning Today</h2>
+                <p>Join over 10,000 students who are advancing their careers with LearnHub.</p>
+                <a href="#" class="btn btn-primary">Get Started for Free</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>LearnHub</h3>
+                    <p>LearnHub is an online learning platform that offers anyone, anywhere access to online courses and degrees from leading universities and companies.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Mobile Development</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Become an Instructor</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 LearnHub. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Animate progress circles
+        const progressCircles = document.querySelectorAll('.progress-circle');
+        
+        progressCircles.forEach(circle => {
+            const progress = circle.getAttribute('data-progress');
+            const fill = circle.querySelector('.progress-fill');
+            const radius = fill.r.baseVal.value;
+            const circumference = 2 * Math.PI * radius;
+            
+            fill.style.strokeDasharray = circumference;
+            fill.style.strokeDashoffset = circumference - (progress / 100) * circumference;
+        });
+
+        // Simple course card hover effect
+        const courseCards = document.querySelectorAll('.course-card');
+        
+        courseCards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-10px)';
+                card.style.boxShadow = '0 15px 30px rgba(0, 0, 0, 0.1)';
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+                card.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.1)';
+            });
+        });
+
+        // Simulate testimonial slider
+        let currentTestimonial = 0;
+        const testimonials = document.querySelectorAll('.testimonial-card');
+        
+        function showTestimonial(index) {
+            testimonials.forEach((testimonial, i) => {
+                testimonial.style.display = i === index ? 'block' : 'none';
+            });
+        }
+        
+        function nextTestimonial() {
+            currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+            showTestimonial(currentTestimonial);
+        }
+        
+        // Initialize
+        showTestimonial(0);
+        setInterval(nextTestimonial, 5000);
+    </script>
+</body>
+</html>
